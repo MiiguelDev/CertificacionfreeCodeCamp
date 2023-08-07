@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Documentación de Python</title>
+</head>
+
+<body>
+  <div id="div-general">
+    <!--Este div encierra el cuerpo completo-->
+    <div id="div-nav">
+      <nav id="navbar">
+        <header>
+          <h1>Python Doc</h1>
+        </header>
+        <ul id="ul-menu">
+          <li><a class="nav-link" href="#Fundamentos_de_Python">Fundamentos de Python</a></li>
+          <li><a class="nav-link" href="#Qué_es_Python_realmente">Qué es Python realmente</a></li>
+          <li><a class="nav-link" href="#Variables">Variables</a></li>
+          <li><a class="nav-link" href="#Comentarios">Comentarios</a></li>
+          <li><a class="nav-link" href="#Operadores">Operadores</a></li>
+          <li><a class="nav-link" href="#Condicionales">Condicionales</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="div-main">
+      <main id="main-doc">
+        <section class="main-section" id="Fundamentos_de_Python">
+          <header>
+            <a name="fundamentos"></a>
+            <h1>Fundamentos de Python</h1>
+          </header>
+          <p>Python es un lenguaje de programación versátil que se puede utilizar para una amplia gama de aplicaciones, desde desarrollo web hasta ciencia de datos y más. Este artículo te proporcionará una introducción a Python y te mostrará algunas de las cosas sorprendentes que puedes hacer con él.</p>
+        </section>
+
+        <section class="main-section" id="Qué_es_Python_realmente">
+          <header>
+            <a name="queespython"></a>
+            <h1>Qué es Python realmente</h1>
+          </header>
+          <p>Python es un lenguaje de programación de alto nivel, interpretado y con una sintaxis clara y legible. Fue creado por Guido van Rossum y lanzado por primera vez en 1991. Python es conocido por su facilidad de uso y su énfasis en la legibilidad del código, lo que lo hace ideal para principiantes y profesionales por igual.</p>
+
+          <p>Puedes hacer casi cualquier cosa con Python. Puedes comenzar con pequeños programas como:</p>
+          <ul>
+            <li>Calculadoras</li>
+            <li>Generadores de contraseñas</li>
+            <li>Procesadores de texto</li>
+            <li>Automatización de tareas</li>
+          </ul>
+
+          <p>Con más experiencia, podrás desarrollar aplicaciones web, análisis de datos, inteligencia artificial y mucho más.</p>
+
+          <p>Python también cuenta con una amplia variedad de bibliotecas y módulos que extienden sus capacidades, lo que te permite realizar tareas avanzadas con poco esfuerzo. Algunas de las características incluyen:</p>
+          <ul>
+            <li>Manejo de archivos y directorios</li>
+            <li>Análisis de datos y manipulación</li>
+            <li>Interacción con bases de datos</li>
+            <li>Desarrollo web</li>
+            <li>Inteligencia artificial y aprendizaje automático</li>
+          </ul>
+        </section>
+
+        <section class="main-section" id="Variables">
+          <header>
+            <a name="variables"></a>
+            <h1>Variables</h1>
+          </header>
+          <p>Las variables en Python son contenedores que te permiten almacenar valores. No necesitas declarar explícitamente una variable antes de usarla; simplemente asigna un valor y Python la creará automáticamente. Aquí tienes algunos ejemplos:</p>
+          <div>
+            <code id="code">nombre_de_la_variable = "Hola, Python"</code>
+          </div>
+        </section>
+
+        <section class="main-section" id="Comentarios">
+          <header>
+            <a name="comentarios"></a>
+            <h1>Comentarios</h1>
+          </header>
+          <p>Puedes escribir comentarios en tu código Python para hacer notas o explicar partes específicas del programa. Los comentarios son ignorados por el intérprete de Python y no afectan el funcionamiento del programa. Aquí tienes cómo escribir comentarios:</p>
+          <div id="code">
+            <code># Esto es un comentario de una sola línea</code>
+          </div>
+          <p>También puedes escribir comentarios de varias líneas utilizando triples comillas simples o triples comillas dobles:</p>
+          <div id="code">
+            <code>'''
+Este es un comentario
+de varias líneas.
+'''        
+            </code>
+          </div>
+        </section>
+
+        <section class="main-section" id="Operadores">
+          <header>
+            <a name="operadores"></a>
+            <h1>Operadores</h1>
+          </header>
+          <p>Los operadores en Python son símbolos que realizan operaciones en uno o más valores y producen un resultado. Aquí tienes algunos operadores básicos:</p>
+          <table>
+            <tr>
+              <td>Operador</td>
+              <td>Explicación</td>
+              <td>Símbolo(s)</td>
+              <td>Ejemplo</td>
+            </tr>
+
+            <tr>
+              <td>Suma</td>
+              <td>Suma dos números o concatena dos cadenas</td>
+              <td>+</td>
+              <td>6 + 9
+"Hola " + "mundo"</td>
+            </tr>
+
+            <tr>
+              <td>Resta, multiplicación, división</td>
+              <td>Operaciones matemáticas básicas</td>
+              <td>-, *, /</td>
+              <td>9 - 3
+8 * 2
+9 / 3</td>
+            </tr>
+
+            <tr>
+              <td>Asignación</td>
+              <td>Asigna un valor a una variable</td>
+              <td>=</td>
+              <td>mi_variable = 'Python'</td>
+            </tr>
+
+            <tr>
+              <td>Igualdad</td>
+              <td>Comprueba si dos valores son iguales entre sí</td>
+              <td>==</td>
+              <td>mi_variable == 'Python'</td>
+            </tr>
+
+            <tr>
+              <td>Desigualdad</td>
+              <td>Comprueba si dos valores son diferentes entre sí</td>
+              <td>!=</td>
+              <td>mi_variable != 'Python'</td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="main-section" id="Condicionales">
+          <header>
+            <a name="condicionales"></a>
+            <h1>Condicionales</h1>
+          </header>
+          <p>Las estructuras condicionales en Python te permiten ejecutar diferentes bloques de código dependiendo de ciertas condiciones. El uso más común es la instrucción <code id="code">if... else</code>. Por ejemplo:</p>
+          <div id="code">
+            <code>edad = 18
+if edad >= 18:
+  print("Eres mayor de edad")
+else:
+  print("Eres menor de edad")
+            </code>
+          </div>
+          <p>Espero que hayas disfrutado esta introducción a Python. ¡Es un lenguaje poderoso y divertido para aprender!</p>
+
+        </section>
+      </main>
+    </div>
+  </div>
+  <div>
+    <footer>
+      Copyright © 2023.
+      Prohibida su reproducción total o parcial, así como su traducción a cualquier idioma sin autorización escrita de su titular.
+    </footer>
+  </div>
+</body>
+
+</html>
