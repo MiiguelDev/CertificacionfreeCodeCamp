@@ -1,0 +1,40 @@
+/* Estilo para la barra de navegación en la parte superior */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+/* Estilo flexbox para centrar el logotipo y el formulario en el header */
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Agrega aquí consultas de medios para la página de aterrizaje */
+/* Por ejemplo: */
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+}
+
+/* Estilo Flexbox para el diseño */
+#section1, #section2, #section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+/* Agrega más estilos flexbox según sea necesario */
+
+/* Estilos generales */
+/* Agrega aquí estilos generales como fuentes, colores, etc. */
